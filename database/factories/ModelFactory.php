@@ -33,6 +33,7 @@ $factory->define(App\Customers::class, function (Faker\Generator $faker) {
     return [
         'name'      => $faker->name,
         'address'   => $faker->address,
-        'phone'     => $faker->phoneNumber
+        'phone'     => $faker->phoneNumber,
+        'company_id'=> App\Company::first()->id
     ];
 });

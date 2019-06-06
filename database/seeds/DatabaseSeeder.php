@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
         factory(App\Company::class, 50)->create()->each(function ($company) {
             $company->customers()->save(factory(App\Customers::class)->make());
         });
+        factory(App\Customer::class, 50)->create();
         factory(App\User::class, 50)->create();
     }
 }
