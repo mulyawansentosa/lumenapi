@@ -23,7 +23,7 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 
 $factory->define(App\Company::class, function (Faker\Generator $faker) {
     return [
-        'name'      => $faker->name,
+        'name'      => $faker->company,
         'address'   => $faker->address,
         'phone'     => $faker->phoneNumber
     ];
