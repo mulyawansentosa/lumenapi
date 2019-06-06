@@ -1,22 +1,19 @@
-# Lumen PHP Framework
+# LumenAPI 
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+This is sample pfoject how lumen work to handle request from client.
+This documentation is describe how Auth Work, How handling read, update, and destroy data by API request.
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+## API Documentation
+You can read our lumenapi documentation on this link:
+### Company API
+https://documenter.getpostman.com/view/6379231/S1TYWc1D
+### Customer API
+https://documenter.getpostman.com/view/6379231/S1TYWc1E
+### User API
+https://documenter.getpostman.com/view/6379231/S1TYWc1F
 
 ## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+If you found security issue on this doc. Don't hasitate to tell us on development@flazhost.com
 
 ## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-"# lumenapi" 
+The LumenAPI is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

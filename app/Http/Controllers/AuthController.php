@@ -14,7 +14,7 @@ class AuthController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth',['except' => ['register','login']]);
     }
 
     public function login(Request $request){
@@ -87,7 +87,7 @@ class AuthController extends Controller
         }
     }
 
-    public function user($id = null){
+    public function show($id = null){
         if(is_null($id)){
             $user = User::all();
             return response()->json(
