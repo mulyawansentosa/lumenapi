@@ -3,6 +3,13 @@
 This is sample pfoject how lumen work to handle request from client.
 This documentation is describe how Auth Work, How handling read, update, and destroy data by API request.
 
+## Features
+1. User Authentication include Login and Registration
+2. Database Migration
+3. Table Relation with Model
+4. Data Seeding
+5. Unit Testing
+
 ## API Documentation
 You can read our lumenapi documentation on this link:
 ### Company API
